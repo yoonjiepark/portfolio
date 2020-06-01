@@ -1,0 +1,195 @@
+/* general */
+body {
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.content {
+  font-family: "Roboto Mono", monospace;
+  font-weight: lighter;
+  padding: 10px;
+}
+
+/* navigation */
+.top-navigation {
+  background-color: white;
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+  color: #68b3de;
+  overflow: hidden;
+}
+
+.top-navigation a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 0px 20px 50px 0px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.top-navigation a:hover {
+  color: #dedede;
+}
+
+.top-navigation a.active {
+  color: #68b3de;
+}
+
+.top-right-navigation {
+  float: right;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+/* home */
+* {
+  box-sizing: border-box;
+}
+
+.row-project {
+  margin: 8px -16px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: lighter;
+}
+
+.row-project,
+.row-project > .column-project {
+  padding: 20px;
+  padding-bottom: 70px;
+}
+
+.column-project {
+  float: left;
+  width: 50%;
+}
+
+/* donatenow */
+* {
+  box-sizing: border-box;
+}
+
+.row-project-info {
+  margin: 8px -16px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: lighter;
+}
+
+.row-project-info,
+.row-project-info > .column-project-info {
+  padding: 20px;
+}
+
+.column-project-info {
+  float: left;
+  width: 33%;
+}
+
+.row-project-details {
+  margin: 8px -16px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: lighter;
+}
+
+.row-project-details,
+.row-project-details > .column-project-details {
+  padding: 20px;
+}
+
+.column-project-details {
+  float: left;
+  width: 100%;
+}
+
+.image-slideshow {
+  max-width: 300px;
+  position: relative;
+  margin: auto;
+}
+
+.images {
+  display: none;
+}
+
+.prev,
+.next {
+  position: absolute;
+  bottom: 50%;
+  width: auto;
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.row-art {
+  margin: 8px -16px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: lighter;
+}
+
+.row-art,
+.row-art > .column-art {
+  padding: 20px;
+}
+
+.column-art {
+  float: left;
+  width: 33%;
+}
+
+/* 
+/* 
+
+/* 
+
+
+/* about */
+.row-about {
+  margin: 8px -16px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: lighter;
+}
+
+.row-about,
+.row-about > .column-about {
+  padding: 20px;
+  padding-bottom: 70px;
+}
+
+.column-about {
+  float: left;
+  width: 50%;
+}
+
+/* contact */
+.row-contact {
+  margin: 8px -16px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: lighter;
+}
+
+.row-contact,
+.row-contact > .column-contact {
+  padding: 20px;
+  padding-bottom: 70px;
+}
+
+.column-contact {
+  float: left;
+  width: 50%;
+}
